@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SignInSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignInTest(failed)">
+    <classes>
+      <class name="com.test.TC_001_VerifyBCportalSignin">
+        <methods>
+          <include name="Verifysignin_invaliddata"/>
+          <include name="browseropen"/>
+          <include name="browserclose"/>
+          <include name="Verifysignin_validdata"/>
+          <include name="bc"/>
+        </methods>
+      </class> <!-- com.test.TC_001_VerifyBCportalSignin -->
+    </classes>
+  </test> <!-- SignInTest(failed) -->
+</suite> <!-- Failed suite [SignInSuite] -->
