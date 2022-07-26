@@ -1,5 +1,7 @@
 package com.test;
 
 public class Verify_table {
-system.out.println("test 4from git");
+public void tc_003(){
+  system.out.println("test 4from git");
+}
 }
